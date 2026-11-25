@@ -37,8 +37,11 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .header-tools { display: flex; gap: 8px; }
 .utility-button { background: transparent; border: 0; cursor: pointer; font-size: 15px; color: var(--ink); width: 24px; height: 24px; }
 .mobile-brand, .btn-hamburguer { display: none; }
+
 .hero { position: relative; min-height: min(760px,100svh); height: 100svh; max-height: 950px; overflow: hidden; background: var(--paper); color: var(--ink); transition: background var(--ease), color var(--ease); }
-.hero-image { position: absolute; inset: 0; width: 64%; background: url('https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1500&q=90') center 22%/cover no-repeat; }
+
+.hero-image { position: absolute; inset: 0; width: 64%; background: url('https://i.pinimg.com/736x/4d/a0/b3/4da0b313695f54f3aa22fe2a59debe98.jpg') center 22%/cover no-repeat; }
+
 .hero-image::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg,transparent 68%,rgba(255,255,255,.18)); }
 .hero-topline { position: absolute; top: 105px; right: 5%; left: 5%; display: flex; justify-content: space-between; font-size: 8px; letter-spacing: .16em; font-weight: 800; color: var(--muted); }
 .hero-wordmark { position: absolute; z-index: 2; top: 13%; right: 1.5%; width: 59%; text-align: center; }
